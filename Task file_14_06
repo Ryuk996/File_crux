@@ -1,0 +1,22 @@
+1) Difference between HTTP1.1 vs 2
+
+*	The HTTP/1.1, which keeps all requests and responses in plain text format, HTTP/2 uses the binary framing layer to encapsulate all messages in binary format.
+*	HTTP/1.1 sends multiple requests for data fetching over multiple a TCP connection,	HTTP/2 can send multiple requests for data in parallel over a single TCP connection. This is the most advanced feature of the HTTP/2 protocol because it allows you to download web files asynchronously from one server.This also reduces the RTT.
+*	The HTTP/1.1,the server pushes  the data for only requested the informaion and doesn't push the additional data related with the request. if any futher data is needed its goes with seperate TCP  connection.
+	In the HTTP/2 ,the server can multiplex pushed data along with originally requested information within the same TCP connection.
+The server can prioritize pushed resources — a key performance differentiator in HTTP/2 vs HTTP1.
+*	HTTP/2 reduces the server load and its fast,when compared to HTTP/1.1.
+*	HTTP/2 is more compatible with most modern browsers.
+
+2) List 5 difference between Browser JS(console) v Nodejs
+
+*	JavaScript is used for writting scripts on the websites.
+	NodeJs is JavaScript runtime environment.
+*	JavaScript can run only inside the browser.
+	NodeJs can outside the browser.
+*	JavaScript basically used on the client side.
+	NodeJs basically used on the server side.
+*	JavaScript has the ability to add Html tags with DOM.
+	NodeJs it cant add Html tags with DOM.
+*	JavaScript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox
+	NodeJs can only run in V8 engine of google chrome.
