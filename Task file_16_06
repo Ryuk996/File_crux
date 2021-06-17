@@ -10,10 +10,10 @@ difference between <div>, <article>, <section> tag?
 
 typeof(1)	: This returns a number/integer.
 typeof(1.1)	: This returns a float value.
-typeof('1.1'):This returns a string.
-typeof(true): This returns a boolean value.
-typeof(null): This returns 0 values.
-typeof(undefined): This returns nothing or no values.
-typeof([]):   This returns a Array.
-typeof({}):	  This returns a Object.	
-typeof(NaN): This returns not a number.
+typeof('1.1')	: This returns a string.
+typeof(true)	: This returns a boolean value.
+typeof(null)	: This returns 0 values.
+typeof(undefined):This returns nothing or no values.
+typeof([])	: This returns a Array.
+typeof({})	: This returns a Object.	
+typeof(NaN)	: This returns not a number.
