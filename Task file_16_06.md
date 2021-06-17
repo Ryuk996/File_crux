@@ -1,0 +1,19 @@
+difference between <div>, <article>, <section> tag?
+
+*	The div tag has only a generic, non-specific meaning and no semantic purpose.
+*	The section tag defines sections in a document like chapters, headers, footers whereas div tag defines a division in an HTML document. 
+	<section> gathers a specific and strong semantic purpose.
+*	The article tag specifies independent, self-contained content. An article should make sense on its own and it should be possible to    
+	distribute it independently from the rest of the site.
+*	If the content within the element is not semantically related, then we use a <div> . If the semantically related content is also able 
+	to be self-contained, then we use an <article>.
+
+typeof(1)	: This returns a number/integer.
+typeof(1.1)	: This returns a float value.
+typeof('1.1'):This returns a string.
+typeof(true): This returns a boolean value.
+typeof(null): This returns 0 values.
+typeof(undefined): This returns nothing or no values.
+typeof([]):   This returns a Array.
+typeof({}):	  This returns a Object.	
+typeof(NaN):  This returns not a number.
